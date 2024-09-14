@@ -27,7 +27,7 @@ Last updated by: Mohammed EL-Desouky
 
 [About this guide 1](#about-this-guide)
 
-[[Step 1]: Cloning the GitHub folder to your local device 2](#step-1:-cloning-the-github-folder-to-your-local-device)
+[[Step 1]: Cloning the GitHub folder to your local device 2](#step-1-cloning-the-github-folder-to-your-local-device)
 
 [Adding local repository (recommended) 2.1](#adding-local-repository-(recommended))
 [Clone the GitHub repository 2.2](#clone-the-github-repository)
@@ -68,7 +68,7 @@ This guide provides instructions on how to go from the raw data extracted from S
 
 _Ensure that both software installations are installed and updated before running the code._
 
-## **Step 1: Cloning the GitHub folder to your local device**
+## **Step 1 Cloning the GitHub folder to your local device**
 
 The raw data is downloaded from the survey solution and is saved on OneDrive; inside the respective country folder. These folders are added to GitHub as repositories to facilitate country collaboration and version control.
 
