@@ -19,11 +19,10 @@ The study results displayed a significant and positive correlation (effect size)
 
 # **GEPD Data Workflow: Step-by-Step Guide**
 
-### A guide for going from raw Global Education Policy Dashboard (GEPD) data to a set of key microdata files and indicators.
+**A guide for going from raw Global Education Policy Dashboard (GEPD) data to a set of key microdata files and indicators.**
 
 Created: December 2023  
 Last Updated: September 2024
-Last updated by: Mohammed EL-Desouky
 
 [About this guide](#about-this-guide)
 
