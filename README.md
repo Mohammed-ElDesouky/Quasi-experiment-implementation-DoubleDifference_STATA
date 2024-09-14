@@ -27,24 +27,24 @@ Last updated by: Mohammed EL-Desouky
 
 [About this guide 1](#about-this-guide)
 
-[\[Step 1\]: Cloning the GitHub folder to your local device 2](#step-1:-cloning-the-github-folder-to-your-local-device)
+[[Step 1]: Cloning the GitHub folder to your local device 2](#_step-1:-cloning-the-github-folder-to-your-local-device)
 
 [Adding local repository (recommended) 2.1](#adding-local-repository-(recommended))
 [Clone the GitHub repository 2.2](#clone-the-github-repository)
 
-[\[Step 2\]: Downloading the raw data from Survey Solutions to the cloned folder 3](#[step-2]:-downloading-the-raw-data-from-survey-solutions-to-the-cloned-folder)
+[[Step 2]: Downloading the raw data from Survey Solutions to the cloned folder 3](#[step-2]:-downloading-the-raw-data-from-survey-solutions-to-the-cloned-folder)
 
-[\[Step 3\]: Merging teachers' modules 4](#[step-3]:-merging-teachers'-modules)
+[[Step 3]: Merging teachers' modules 4](#[step-3]:-merging-teachers'-modules)
 
-[\[Step 4\]: Running the initialization do-files 5](#[step-4]:-running-the-initialization-do-files)
+[[Step 4]: Running the initialization do-files 5](#[step-4]:-running-the-initialization-do-files)
 
-[\[Step 5\]: Running the cleaning and processing do-files 6](#[step-5]:-running-the-cleaning-and-processing-do-files)
+[[Step 5]: Running the cleaning and processing do-files 6](#[step-5]:-running-the-cleaning-and-processing-do-files)
 
-[\[Step 6\]: Cleaning public officials' data 7](#[step-6]:-cleaning-public-officials'-data)
+[[Step 6]: Cleaning public officials' data 7](#[step-6]:-cleaning-public-officials'-data)
 
-[\[Step 7\]: Cleaning policy (experts) survey data 8](#[step-7]:-cleaning-policy-(experts)-survey-data)
+[[Step 7]: Cleaning policy (experts) survey data 8](#[step-7]:-cleaning-policy-(experts)-survey-data)
 
-[\[Step 8\]: Producing the GEPD key indicators 9](#[step-8]:-producing-the-gepd-key-indicators)
+[[Step 8]: Producing the GEPD key indicators 9](#[step-8]:-producing-the-gepd-key-indicators)
 
 
 ## **About this guide**
@@ -95,7 +95,7 @@ Alternatively, if the above-mentioned case is not applicable, a user could clone
 
 These steps will create an exact copy of this GitHub folder on your local computer with all the necessary folder structure, Stata code files and the template files needed to reproduce the GEPD indicators.
 
-## **\[Step 2\]: Downloading the raw data from Survey Solutions to the cloned folder**
+## **[Step 2]: Downloading the raw data from Survey Solutions to the cloned folder**
 
 After the GitHub folder is cloned, the sub-folder `**01_GEPD_raw_data**\` would be sub-divided into folders corresponding to the survey level: `School`, `Public_Officials`, `Policy_Survey`, and `Sampling`. The user must download and place the raw data files, from survey solution, into the corresponding sub-folder. Please note: these raw data files are loaded once into Stata, and any processing to it will be saved as a copy into a different `Cleaned folder` as we are going to explain later —**the user must avoid altering or overwriting the raw files**.
 
@@ -114,7 +114,7 @@ A list is provided in the annex of what raw data files a user is expected to see
 
 _Note: If you do not have a Survey Solutions account, please get in touch with the GEPD team at <educationdashboard@worldbank.org>_
 
-## **\[Step 3\]: Merging teachers' modules**
+## **[Step 3]: Merging teachers' modules**
 
 Teachers are being surveyed in different modules (hence different datasets) and all the teachers’ data can be downloaded as separate data files from Survey Solutions. However, for the processing do-files to work as intended, teachers' modules must be combined into a single data file. A heritage procedure attempts to do that using a fuzzy matching technique, which was developed to overcome the issue of the same teacher with different IDs across modules. Note that this step is unnecessary for present implementations of the GEPD (as well as for the Punjab and Sindh provinces of Pakistan, and Edo State in Nigeria), since the teachers in these surveys have consistent IDs across modules. Nonetheless, more information on fuzzy matching can be found in the annex. 
 
@@ -125,7 +125,7 @@ The Stata scrip that merges teachers’ modules is titles <<02_school_data_merge
 Once the teachers' modules are merged, the resulting teachers file is saved in the `School` sub-folder under `**01_GEPD_raw_data**\` with the title “**Country_teacher_level_test.dta**\” 
 
 
-## **\[Step 4\]: Running the initialization do-files**
+## **[Step 4]: Running the initialization do-files**
 
 Before running any of the processing code files, a user must run the initialization do-files located in the main folder titled `GEPD_CountryX`. These do-files will set the parameters and file paths for the code to run. 
 
@@ -133,7 +133,7 @@ Before running any of the processing code files, a user must run the initializat
 
 2. `**profile_GEPD.do**\` should be opened in the same Stata console as `parameters.do` and allows for setting up file paths and data directories. Please note that this do-file would prompt the user to select on-screen the `run_GEPD.do` inside the countries folder. Ensure to select the correct `run_GEPD.do` which is inside the country folder where the data is stored.  
 
-## **\[Step 5\]: Running the cleaning and processing do-files**
+## **[Step 5]: Running the cleaning and processing do-files**
 
 After executing the previous step, **_on the same opened STATA console_**\, run the processing do-files. The folder `**02_programs\School**\` include three do-files needed to produce the necessary cleaned and merged datasets, which a user can either run at once by running the master script `01_school_run`, or individually. Either case, please ensure that the following do-files are loaded in the same Stata session/console that ran the `parameters` and `profile` do-files:
 
@@ -147,7 +147,7 @@ _Note: These datasets are only meant to be used by the WB team and not meant to 
 
 4. `**04_school_data_anonymizer**\` anonymizes the data files produced from the previous step and stores the anonymized version of the four cleaned school-level data files in `**03_GEPD_processed\School\Confidential\Cleaned\Anonymized**\`. A user would need to tweak this do-file for each country before running it, this is an inevitable process, since part of the anonymization is country-specific. Information on what to tweak is listed inside the do-file. 
 
-## **\[Step 6\]: Cleaning public officials' data**
+## **[Step 6]: Cleaning public officials' data**
 
 The process to clean public official data is nearly identical to cleaning the school-level data (Step 5). School data must be cleaned before the public officials' files are cleaned. This is because the public officials are asked about teacher absence in the system and the answers are verified by checking against the GEPD teacher data.  
 
@@ -161,13 +161,13 @@ To clean the data, a user would need to execute two do files located in <<**02_p
 
 2. Once the cleaning script is run successfully, the cleaned data can be found in <<**03_GEPD_processed_data\\Public_Officials\\Confidential**\>>.
 
-## **\[Step 7\]: Cleaning policy (experts) survey data**
+## **[Step 7]: Cleaning policy (experts) survey data**
 
 Meanwhile, expert data can only be processed using an R-script `policy_survey.Rmd` in `**/02_programs/Policy_Survey/R**\`. At the top of the script, user would need to customize the information under “Country name and year of survey”. Detailed guidance on each step is given directly within the R-script. Note: to avoid problems with running any R script caused by directory set up, including the policy survey script, please open scripts using the Rstudio project titled `GEPD_Production-countryname.Rproj`, and found in the country’s folder. 
 
 Once the cleaning script is run successfully, the cleaned data can be found in <<**03_GEPD_processed_data/Policy_Survey**\>>.
 
-## **\[Step 8\]: Producing the GEPD key indicators**
+## **[Step 8]: Producing the GEPD key indicators**
 
 The GEPD’s indicators are contained in an Excel file along with a unique key for each indicator. This file's purpose is to cstore the set of indicators published on the GEPD website and used for populating the standard GEPD PowerPoint slides. In addition, these are the indicators available on the World Bank API. See <https://databank.worldbank.org/source/education-policy>.
 
