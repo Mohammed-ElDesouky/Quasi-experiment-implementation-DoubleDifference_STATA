@@ -21,9 +21,9 @@ The study results displayed a significant and positive correlation (effect size)
 
 **A guide for going from raw Global Education Policy Dashboard (GEPD) data to a set of key microdata files and indicators.**
 
-Created: December 2023  
-Last Updated: September 2024
- by: Mohammed EL-Desouky
+*Created:* December 2023  
+*Last Updated:* September 2024
+*by:* Mohammed EL-Desouky
 
 **Content**
 
@@ -31,9 +31,9 @@ Last Updated: September 2024
 
 [[Step 1]: Cloning the GitHub folder to your local device](#step-1-cloning-the-github-folder-to-your-local-device)
 
-	[1.1. Adding local repository (recommended)](#adding-local-repository-recommended)
+[1.1. Adding local repository (recommended)](#adding-local-repository-recommended)
 
-	[1.2. Clone the GitHub repository](#clone-the-github-repository)
+[1.2. Clone the GitHub repository](#clone-the-github-repository)
 
 [[Step 2]: Downloading the raw data from Survey Solutions to the cloned folder](#step-2-downloading-the-raw-data-from-survey-solutions-to-the-cloned-folder)
 
