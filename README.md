@@ -19,32 +19,32 @@ The study results displayed a significant and positive correlation (effect size)
 
 # **GEPD Data Workflow: Step-by-Step Guide**
 
-#### A guide for going from raw Global Education Policy Dashboard (GEPD) data to a set of key microdata files and indicators.
+### A guide for going from raw Global Education Policy Dashboard (GEPD) data to a set of key microdata files and indicators.
 
 Created: December 2023  
 Last Updated: September 2024
 Last updated by: Mohammed EL-Desouky
 
-[About this guide 1](## **About this guide**)
+[About this guide 1](#about-this-guide)
 
-[\[Step 1\]: Cloning the GitHub folder to your local device 2](## **\[Step 1\]: Cloning the GitHub folder to your local device**)
+[\[Step 1\]: Cloning the GitHub folder to your local device 2](#[step-1]:-cloning-the-GitHub-folder-to-your-local-device)
 
-[Adding local repository (recommended) 2.1](### **Adding local repository (recommended)**)
-[Clone the GitHub repository 2.2](### **Clone the GitHub repository**)
+[Adding local repository (recommended) 2.1](#adding-local-repository-(recommended))
+[Clone the GitHub repository 2.2](#clone-the-github-repository)
 
-[\[Step 2\]: Downloading the raw data from Survey Solutions to the cloned folder 2](## **\[Step 2\]: Downloading the raw data from Survey Solutions to the cloned folder**)
+[\[Step 2\]: Downloading the raw data from Survey Solutions to the cloned folder 3](#[step-2]:-downloading-the-raw-data-from-survey-solutions-to-the-cloned-folder)
 
-[\[Step 3\]: Merging teachers' modules 3](## **\[Step 3\]: Merging teachers' modules**)
+[\[Step 3\]: Merging teachers' modules 4](#[step-3]:-merging-teachers'-modules)
 
-[\[Step 4\]: Running the initialization do-files 4](## **\[Step 4\]: Running the initialization do-files**)
+[\[Step 4\]: Running the initialization do-files 5](#[step-4]:-running-the-initialization-do-files)
 
-[\[Step 5\]: Running the cleaning and processing do-files 4](## **\[Step 5\]: Running the cleaning and processing do-files**)
+[\[Step 5\]: Running the cleaning and processing do-files 6](#[step-5]:-running-the-cleaning-and-processing-do-files)
 
-[\[Step 6\]: Cleaning public officials' data 5](## **\[Step 6\]: Cleaning public officials' data**)
+[\[Step 6\]: Cleaning public officials' data 7](#[step-6]:-cleaning-public-officials'-data)
 
-[\[Step 7\]: Cleaning policy (experts) survey data 6](## **\[Step 7\]: Cleaning policy (experts) survey data**)
+[\[Step 7\]: Cleaning policy (experts) survey data 8](#[step-7]:-cleaning-policy-(experts)-survey-data)
 
-[\[Step 8\]: Producing the GEPD key indicators 6](## **\[Step 8\]: Producing the GEPD key indicators**)
+[\[Step 8\]: Producing the GEPD key indicators 9](#[step-8]:-producing-the-gepd-key-indicators)
 
 
 ## **About this guide**
