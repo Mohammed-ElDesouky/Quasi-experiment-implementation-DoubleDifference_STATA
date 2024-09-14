@@ -23,30 +23,31 @@ The study results displayed a significant and positive correlation (effect size)
 
 Created: December 2023  
 Last Updated: September 2024
-Last updated by: Mohammed EL-Desouky
+ by: Mohammed EL-Desouky
 
 **Content**
-[About this guide 1](#about-this-guide)
 
-[[Step 1]: Cloning the GitHub folder to your local device 2](#step-1-cloning-the-github-folder-to-your-local-device)
+[About this guide](#about-this-guide)
 
-[Adding local repository (recommended) 2.1](#adding-local-repository-recommended)
+[[Step 1]: Cloning the GitHub folder to your local device](#step-1-cloning-the-github-folder-to-your-local-device)
 
-[Clone the GitHub repository 2.2](#clone-the-github-repository)
+	[1.1. Adding local repository (recommended)](#adding-local-repository-recommended)
 
-[[Step 2]: Downloading the raw data from Survey Solutions to the cloned folder 3](#step-2-downloading-the-raw-data-from-survey-solutions-to-the-cloned-folder)
+	[1.2. Clone the GitHub repository](#clone-the-github-repository)
 
-[[Step 3]: Merging teachers' modules 4](#step-3-merging-teachers-modules)
+[[Step 2]: Downloading the raw data from Survey Solutions to the cloned folder](#step-2-downloading-the-raw-data-from-survey-solutions-to-the-cloned-folder)
 
-[[Step 4]: Running the initialization do-files 5](#step-4-running-the-initialization-do-files)
+[[Step 3]: Merging teachers' modules](#step-3-merging-teachers-modules)
 
-[[Step 5]: Running the cleaning and processing do-files 6](#step-5-running-the-cleaning-and-processing-do-files)
+[[Step 4]: Running the initialization do-files](#step-4-running-the-initialization-do-files)
 
-[[Step 6]: Cleaning public officials' data 7](#step-6-cleaning-public-officials-data)
+[[Step 5]: Running the cleaning and processing do-files](#step-5-running-the-cleaning-and-processing-do-files)
 
-[[Step 7]: Cleaning policy (experts) survey data 8](#step-7-cleaning-policy-experts-survey-data)
+[[Step 6]: Cleaning public officials' data](#step-6-cleaning-public-officials-data)
 
-[[Step 8]: Producing the GEPD key indicators 9](#step-8-producing-the-gepd-key-indicators)
+[[Step 7]: Cleaning policy (experts) survey data](#step-7-cleaning-policy-experts-survey-data)
+
+[[Step 8]: Producing the GEPD key indicators](#step-8-producing-the-gepd-key-indicators)
 
 
 ## **About this guide**
