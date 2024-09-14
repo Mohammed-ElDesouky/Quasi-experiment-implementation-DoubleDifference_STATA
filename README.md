@@ -100,7 +100,7 @@ These steps will create an exact copy of this GitHub folder on your local comput
 
 ## **[Step 2]: Downloading the raw data from Survey Solutions to the cloned folder**
 
-After the GitHub folder is cloned, the sub-folder `**01_GEPD_raw_data**` would be sub-divided into folders corresponding to the survey level: `School`, `Public_Officials`, `Policy_Survey`, and `Sampling`. The user must download and place the raw data files, from survey solution, into the corresponding sub-folder. Please note: these raw data files are loaded once into Stata, and any processing to it will be saved as a copy into a different `Cleaned folder` as we are going to explain later —**the user must avoid altering or overwriting the raw files**.
+After the GitHub folder is cloned, the sub-folder **`01_GEPD_raw_data`** would be sub-divided into folders corresponding to the survey level: `School`, `Public_Officials`, `Policy_Survey`, and `Sampling`. The user must download and place the raw data files, from survey solution, into the corresponding sub-folder. Please note: these raw data files are loaded once into Stata, and any processing to it will be saved as a copy into a different `Cleaned folder` as we are going to explain later —**the user must avoid altering or overwriting the raw files**.
 
 The user must download all the data files related to:
 
