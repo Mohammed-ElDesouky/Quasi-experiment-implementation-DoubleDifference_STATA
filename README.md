@@ -27,7 +27,7 @@ Last updated by: Mohammed EL-Desouky
 
 [About this guide 1](#about-this-guide)
 
-[\[Step 1\]: Cloning the GitHub folder to your local device 2](#[step-1]:-cloning-the-GitHub-folder-to-your-local-device)
+[\[Step 1\]: Cloning the GitHub folder to your local device 2](#step-1:-cloning-the-github-folder-to-your-local-device)
 
 [Adding local repository (recommended) 2.1](#adding-local-repository-(recommended))
 [Clone the GitHub repository 2.2](#clone-the-github-repository)
