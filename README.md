@@ -29,23 +29,22 @@ Last updated by: Mohammed EL-Desouky
 
 [[Step 1]: Cloning the GitHub folder to your local device 2](#step-1-cloning-the-github-folder-to-your-local-device)
 
-[Adding local repository (recommended) 2.1](#adding-local-repository-(recommended))
-
+[Adding local repository (recommended) 2.1](#adding-local-repository-recommended)
 [Clone the GitHub repository 2.2](#clone-the-github-repository)
 
-[[Step 2]: Downloading the raw data from Survey Solutions to the cloned folder 3](#[step-2]:-downloading-the-raw-data-from-survey-solutions-to-the-cloned-folder)
+[[Step 2]: Downloading the raw data from Survey Solutions to the cloned folder 3](#step-2-downloading-the-raw-data-from-survey-solutions-to-the-cloned-folder)
 
-[[Step 3]: Merging teachers' modules 4](#[step-3]:-merging-teachers'-modules)
+[[Step 3]: Merging teachers' modules 4](#step-3-merging-teachers-modules)
 
-[[Step 4]: Running the initialization do-files 5](#[step-4]:-running-the-initialization-do-files)
+[[Step 4]: Running the initialization do-files 5](#step-4-running-the-initialization-do-files)
 
-[[Step 5]: Running the cleaning and processing do-files 6](#[step-5]:-running-the-cleaning-and-processing-do-files)
+[[Step 5]: Running the cleaning and processing do-files 6](#step-5-running-the-cleaning-and-processing-do-files)
 
-[[Step 6]: Cleaning public officials' data 7](#[step-6]:-cleaning-public-officials'-data)
+[[Step 6]: Cleaning public officials' data 7](#step-6-cleaning-public-officials-data)
 
-[[Step 7]: Cleaning policy (experts) survey data 8](#[step-7]:-cleaning-policy-(experts)-survey-data)
+[[Step 7]: Cleaning policy (experts) survey data 8](#step-7-cleaning-policy-experts-survey-data)
 
-[[Step 8]: Producing the GEPD key indicators 9](#[step-8]:-producing-the-gepd-key-indicators)
+[[Step 8]: Producing the GEPD key indicators 9](#step-8-producing-the-gepd-key-indicators)
 
 
 ## **About this guide**
