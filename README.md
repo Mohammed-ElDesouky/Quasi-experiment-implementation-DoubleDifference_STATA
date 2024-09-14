@@ -69,7 +69,7 @@ This guide provides instructions on how to go from the raw data extracted from S
 
 **Assisting language & tools**: R, RStudio and GitHub Desktop
 
-_Ensure that both software installations are installed and updated before running the code._
+_**Note:** Ensure that both software installations are installed and updated before running the code._
 
 ## **[Step 1]: Cloning the GitHub folder to your local device**
 
@@ -104,7 +104,7 @@ After the GitHub folder is cloned, the sub-folder **`01_GEPD_raw_data`** would b
 
 The user must download all the data files related to:
 
-1. school, teachers, Grade 1, and Grade 4 students into the `**School**` sub-folder.   
+1. school, teachers, Grade 1, and Grade 4 students into the **`School`** sub-folder.   
 2. public officials into the **`Public_Officials`** sub-folder.  
 3. Policy survey into **`Policy_Survey`** sub-folder.  
 4. Sampling and weights into **`Sampling`** sub-folder. 
@@ -160,9 +160,9 @@ To clean the data, a user would need to execute two do files located in <<**02_p
 
 1. The “01_public_officials_run.do”  which will serve two functions:
 
-1.1. verify if the `profile.do` is loaded to set up the macros and paths, and if not loaded then; the user will be asked to first run the `profile.do` on the same opened Stata console, then;
+	a. verify if the `profile.do` is loaded to set up the macros and paths, and if not loaded then; the user will be asked to first run the `profile.do` on the same opened Stata console, then;
 
-1.2. Will run and execute the second do-file to process the public officials’ raw data `02_public_officials_data_cleaner.do` 
+	b. Will run and execute the second do-file to process the public officials’ raw data `02_public_officials_data_cleaner.do` 
 
 2. Once the cleaning script is run successfully, the cleaned data can be found in <<**03_GEPD_processed_data\\Public_Officials\\Confidential**>>.
 
