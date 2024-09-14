@@ -21,10 +21,9 @@ The study results displayed a significant and positive correlation (effect size)
 
 **A guide for going from raw Global Education Policy Dashboard (GEPD) data to a set of key microdata files and indicators.**
 
-*Created:* December 2023  
-*Last Updated:* September 2024
-
-*by:* Mohammed EL-Desouky
+*Created: December 2023  *
+*Last Updated: September 2024	*
+*by: Mohammed EL-Desouky	*
 
 **Content**
 
