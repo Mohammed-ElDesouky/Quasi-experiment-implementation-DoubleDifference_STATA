@@ -193,4 +193,3 @@ The procedure detailed through the above-mentioned steps shall suffice to produc
 Currently, this script exists only for Chad, but it can be generalized to other country-implementations. The script is called “Chad_additional_analysis” and is located in <<**GEPD_Production-Chad/05_Additional_Analysis**\>>.
 
 In the meantime, the technical team is looking for ways to integrate this analysis into the data processing workflow, so that a user could run the same scripts in the steps from 1 to 9 and obtain all the desired outcomes (cleaned datasets, indicators, visualizations and on-demand analysis), without needing to call the on-demand analysis do-file separately. This shall streamline the production of those analytical products and prevent confusions of which scripts need to be run and for which reasons. Once this has been finalized, this section on on-demand requests will be readdressed and updated.
-
