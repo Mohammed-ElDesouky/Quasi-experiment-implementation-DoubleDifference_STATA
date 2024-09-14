@@ -82,7 +82,7 @@ Inside each country’s folder/repository, the data workflow is organized across
 3. **03_GEPD_processed_data**; contains the cleaned and anonymized data files. There are separate sub-folders for each of the three data sources: `School`, `Public_Officials`, and `Policy_Survey`.  
 4. **04_GEPD_Indicators**; contains the set of final GEPD indicators.
 
-_Before working with the data, the user must first set-up the GitHub’s country folder/repository on the local machine either as “local repository” or “cloned repository”._
+_**Note:** Before working with the data, the user must first set-up the GitHub’s country folder/repository on the local machine either as “local repository” or “cloned repository”._
 
 ### **Adding local repository (recommended)**
 This is the recommended process If using a WB machine/VDI and having access rights to OneDrive where the data is stored.
